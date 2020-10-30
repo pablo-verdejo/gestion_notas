@@ -144,7 +144,28 @@ body {
 
 .column.side {
     width: 33.3%;
+    float: right;
 }
+
+/*boton*/
+
+.button{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 25px;
+    color: #ffffff;
+    background-color: green;
+    border-radius: 8px;
+  }
+
+  .button2{
+    text-decoration: none;
+    padding: 2px;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: green;
+    border-radius: 1px;
+  }
 
 
 /* right column - parrafs*/

@@ -9,11 +9,11 @@ function validacionForm(){
         return false
     }else if (email=='') {
         //alert('email vacio')
-        document.getElementById('message').innerHTML='email vacio';
+        document.getElementById('message').innerHTML='<p style="color:red">Falta email</p>';
         return false
     }else if (password=='') {
         //alert('contra vacia')
-        document.getElementById('message').innerHTML='contra vacio';
+        document.getElementById('message').innerHTML='<p style="color:red">Falta contraseña</p>';
         return false
     }else{
         return true

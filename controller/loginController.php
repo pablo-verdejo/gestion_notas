@@ -1,13 +1,13 @@
 <?php
-require_once '../model/user.php';
-require_once '../model/userDAO.php';
+require_once '../model/admin.php';
+require_once '../model/adminDAO.php';
 if (isset($_POST['email'])) {
-    $user = new User($_POST['email'], md5($_POST['psswd']));
-    $userDAO = new UserDAO();
-    if($userDAO->login($user)){
-        header('Location:../view/zona.admin.php');
+    $admin = new Admin($_POST['email'], md5($_POST['psswd']));
+    $userDAO = new AdminDAO();
+    if($userDAO->login($admin)){
+        header('Location:../view/zona-admin.php');
     }else {
-        header('Location:../view/login.php');
+       header('Location:../view/login.php');
     }
 }else {
     header('Location:../view/login.php');
