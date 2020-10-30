@@ -27,7 +27,7 @@
     </div>
   </div>
   
-  <div class="column right" style="background-image: url('../img/re-read-tienda.jpg'); height:100vh">
+  <div class="column right" style="background-image: url('../img/admin.jpg'); height:100vh">
 
   </div>
 </div>
